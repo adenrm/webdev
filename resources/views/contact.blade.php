@@ -134,7 +134,7 @@
         <div class="bg-white py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-          <h2 class="ml-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hubungi Saya</h2>
+          <h2 class="ml-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Hubungi Saya yaaa</h2>
               <ol>
                 <li><a href="https://github.com/adenrm" target="_blank">Github</a></li>
                 <li><a href="https://instagram.com/ydznq" target="_blank">Instagram</a></li>
