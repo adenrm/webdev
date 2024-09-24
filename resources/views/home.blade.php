@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
     <style>
       .lalezar-regular {
   font-family: "Lalezar", system-ui;
@@ -19,8 +20,21 @@
   font-style: normal;
   }
 
+  .blog-bg-theme {
+    background-color: #38B6FF;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
   .bg-theme {
-    background-color: 38B6FF;
+    background-color: #38B6FF;
+  }
+
+.hvr-theme {
+  background-color: #38B6FF;
+}
+  .text-theme {
+    color: #38B6FF;
   }
     </style>
 </head>
@@ -62,9 +76,9 @@
   
               <!-- Profile dropdown -->
               <div class="space-x-4">
-                <a href="/" class="rounded-md bg-cyan-300 px-3 py-2 text-sm lalezar-regular text-white" aria-current="page">HOME</a>
-                <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-300 hover:text-white">ABOUT</a>
-                <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-300 hover:text-white">CONTACT</a>
+                <a href="/" class="rounded-md bg-theme px-3 py-2 text-sm lalezar-regular text-white" aria-current="page">HOME</a>
+                <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-theme hover:text-white">ABOUT</a>
+                <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-theme hover:text-white">CONTACT</a>
               </div>
               {{-- <div class="relative ml-3">
                 <div>
@@ -150,9 +164,12 @@
     <main>
       <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
+        <div>
+          <p>Tes doang</p>
+        </div>
          <div class="my-8 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center">
-          <div class="w-full md:w-3/4 lg:w-1/2">
-            <h1 class="text-3xl font-bold text-blue-500 mb-4">Lorem, ipsum dolor.</h1>
+          <div class="w-full md:w-3/4 lg:w-1/2 blog-bg-theme bb">
+            <h1 class="text-3xl font-bold mb-4">Lorem, ipsum dolor.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quasi, harum omnis veritatis dolore in animi aliquam laboriosam commodi placeat eveniet sunt fugiat nulla, mollitia odit laudantium ullam possimus officiis aspernatur architecto. Tenetur iusto sed doloribus, esse autem ab quo cupiditate eius iure reprehenderit perferendis illo quod laboriosam tempore vero.</p>
           </div>
           <div class="w-full md:w-3/4 lg:w-1/2">
