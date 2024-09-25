@@ -169,9 +169,12 @@
             <h1 class="text-5xl font-bold mb-4">AI Technology</h1>
             <p>AI Technology adalah cabang dari ilmu komputer yang berfokus pada penciptaan mesin atau sistem yang mampu meniru kecerdasan manusia. Dengan AI, komputer dapat melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, penyelesaian masalah, dan pembelajaran dari data. AI terdiri dari beberapa sub-bidang, termasuk machine learning, natural language processing, computer vision, dan robotics.</p>
             <br>
-            <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
+            {{-- <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
                 Learn More
-            </a>
+            </a> --}}
+            <a href="#" class="neon-button">
+              Learn More
+          </a>
           </div>         
           <div class="w-full md:w-3/4 lg:w-1/2">
             <img src="img/homeRobot.png" alt="robot">
