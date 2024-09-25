@@ -195,9 +195,19 @@
         <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
       </div>
     </div>
-    <div class="container bg-cyan-700">
+    <div class="text-white container pl-8 pr-8 bg-cyan-700">
       <br><br><br>
-      testt
+      <h4 class="text-xl">Apa saja yang bisa dilakukan AI?</h4>
+      <ul class="list-disc">
+        <li>Pembelajaran Mesin (Machine Learning): AI dapat belajar dari data yang besar dan kompleks, lalu membuat prediksi atau keputusan berdasarkan pola yang ditemukan. Contohnya, rekomendasi film di Netflix atau deteksi penipuan kartu kredit</li>
+        <br>
+        <li>Pemrosesan Bahasa Alami (Natural Language Processing): AI dapat memahami dan menghasilkan bahasa manusia, seperti menerjemahkan teks, menjawab pertanyaan, atau bahkan menulis puisi.</li>
+        <br>
+        <li>Pengenalan Suara: AI dapat mengenali dan menginterpretasikan ucapan manusia, seperti asisten virtual seperti Siri atau Google Assistant.</li>
+          <br>
+        <li>Penglihatan Komputer: AI dapat menganalisis gambar dan video, seperti mengenali wajah, mendeteksi objek, atau bahkan mengemudi mobil secara otonom.</li>
+        <br>
+      </ul>
     </div>
         </main>
 
