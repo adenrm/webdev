@@ -180,9 +180,26 @@
           <div class="w-full md:w-3/4 lg:w-1/2">
             <img src="img/homeRobot.png" alt="robot">
           </div>
-         </div>
-        </main>
+        </div>
       </div>
+      <img class="-mb-2" src="img/wave.svg" alt="wave">
+      <div class="-mb-2 pl-8 pr-8 my-2 text-white container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center bg-cyan-700">
+        <div class="w-full md:w-3/4 lg:w-1/2 bb">
+          <img class="w-3/4" src="img/brain.png" alt="brain">
+        </div>
+        <div class="w-full md:w-3/4 lg:w-1/2">
+        <h1 class="text-3xl font-bold">Apa itu AI (Artificial Intelegence)?</h1>
+        <br><br>
+        <p>&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
+        <br><br><br>
+        <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
+      </div>
+    </div>
+    <div class="container bg-cyan-700">
+      <br><br><br>
+      testt
+    </div>
+        </main>
 
       <script src="js/script.js"></script>
 </body>
