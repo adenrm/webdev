@@ -165,8 +165,8 @@
     <main>
       <div class="mx-auto ml-5 max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
-         <div class="my-2 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center">
-          <div class="w-full md:w-3/4 lg:w-1/2 bb">
+         <div class="my-2 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row 2xl:flex-row 2xl:pl-96 gap-2 items-center">
+          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 bb">
             <h1 class="text-5xl font-bold mb-4">AI Technology</h1>
             <p>AI Technology adalah cabang dari ilmu komputer yang berfokus pada penciptaan mesin atau sistem yang mampu meniru kecerdasan manusia. Dengan AI, komputer dapat melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, penyelesaian masalah, dan pembelajaran dari data. AI terdiri dari beberapa sub-bidang, termasuk machine learning, natural language processing, computer vision, dan robotics.</p>
             <br>
@@ -177,38 +177,39 @@
               Learn More
           </a>
           </div>         
-          <div class="w-full md:w-3/4 lg:w-1/2">
+          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 2xl:-mr-20">
             <img src="img/homeRobot.png" alt="robot">
           </div>
         </div>
       </div>
-      <img class="-mb-2" src="img/wave.svg" alt="wave">
-      <div class="-mb-2 pl-8 pr-8 my-2 text-white container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center bg-cyan-700">
-        <div class="w-full md:w-3/4 lg:w-1/2 bb">
-          <img class="w-3/4" src="img/brain.png" alt="brain">
+      <img class="-mb-3" src="img/wave.svg" alt="wave">
+        <div class=" -mb-3 pl-8 pr-8 my-2 text-white container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center bg-cyan-700">
+          <div class="w-full md:w-3/4 lg:w-1/2">
+            <img class="w-3/4" src="img/brain.png" alt="brain">
+          </div>
+          <div class="w-full md:w-3/4 lg:w-1/2 bb">
+            <h1 class="text-3xl font-bold">Apa itu AI (Artificial Intelegence)?</h1>
+            <br><br>
+            <p>&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
+            <br><br><br>
+            <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
+          </div>
         </div>
-        <div class="w-full md:w-3/4 lg:w-1/2">
-        <h1 class="text-3xl font-bold">Apa itu AI (Artificial Intelegence)?</h1>
-        <br><br>
-        <p>&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
-        <br><br><br>
-        <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
-      </div>
-    </div>
-    <div class="text-white container  pl-8 pr-8 bg-cyan-700">
-      <br><br><br>
-      <h4 class="text-xl">Apa saja yang bisa dilakukan AI?</h4>
-      <ul class="list-disc">
-        <li>Pembelajaran Mesin (Machine Learning): AI dapat belajar dari data yang besar dan kompleks, lalu membuat prediksi atau keputusan berdasarkan pola yang ditemukan. Contohnya, rekomendasi film di Netflix atau deteksi penipuan kartu kredit</li>
-        <br>
-        <li>Pemrosesan Bahasa Alami (Natural Language Processing): AI dapat memahami dan menghasilkan bahasa manusia, seperti menerjemahkan teks, menjawab pertanyaan, atau bahkan menulis puisi.</li>
-        <br>
-        <li>Pengenalan Suara: AI dapat mengenali dan menginterpretasikan ucapan manusia, seperti asisten virtual seperti Siri atau Google Assistant.</li>
-          <br>
-        <li>Penglihatan Komputer: AI dapat menganalisis gambar dan video, seperti mengenali wajah, mendeteksi objek, atau bahkan mengemudi mobil secara otonom.</li>
-        <br>
-      </ul>
-    </div>
+        <div class="-mb-3 xl:-mb-3 pl-8 pr-8 my-2 text-white container-xl mx-auto gap-2 items-center bg-cyan-700">
+          <br><br><br>
+          <h4 class="text-xl">Apa saja yang bisa dilakukan AI?</h4>
+          <ul class="list-disc">
+            <li>Pembelajaran Mesin (Machine Learning): AI dapat belajar dari data yang besar dan kompleks, lalu membuat prediksi atau keputusan berdasarkan pola yang ditemukan. Contohnya, rekomendasi film di Netflix atau deteksi penipuan kartu kredit</li>
+            <br>
+            <li>Pemrosesan Bahasa Alami (Natural Language Processing): AI dapat memahami dan menghasilkan bahasa manusia, seperti menerjemahkan teks, menjawab pertanyaan, atau bahkan menulis puisi.</li>
+            <br>
+            <li>Pengenalan Suara: AI dapat mengenali dan menginterpretasikan ucapan manusia, seperti asisten virtual seperti Siri atau Google Assistant.</li>
+              <br>
+              <li>Penglihatan Komputer: AI dapat menganalisis gambar dan video, seperti mengenali wajah, mendeteksi objek, atau bahkan mengemudi mobil secara otonom.</li>
+              <br>
+            </ul>
+          </div>
+        </div>
         </main>
         <h1 class="text-4xl font-serif">Contoh:</h1>
         <div class="flex flex-col items-center justify-center">
