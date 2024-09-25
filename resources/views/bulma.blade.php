@@ -10,7 +10,7 @@
 <body>
   <nav>
     <div class="box">
-      <div class="dropdown">Dropdown
+      <div class="drop-adv">Dropdown
           <span class="left-icon"></span>
           <span class="right-icon"></span>
           <div class="items">

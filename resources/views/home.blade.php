@@ -80,12 +80,13 @@
                 <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">ABOUT</a>
                 <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">CONTACT</a>
               </div>
-              {{-- <div class="relative ml-3">
-                <div>
-                  <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center rounded-full bg-cyan-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+              <div class="relative ml-3">
+                <div class="mt-1 focus:bg-cyan-700">
+                  <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center text-sm rounded-md focus:bg-cyan-700 focus:text-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     <span class="absolute -inset-1.5"></span>
                     <span class="sr-only">Open user menu</span>
-                    <img class="h-8 w-8 rounded-full" src="img/profile.png" alt="">
+                    {{-- <img class="h-8 w-8 rounded-full" src="img/profile.png" alt=""> --}}
+                    <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700">OTHER</p>
                   </button>
                 </div>
   
@@ -101,7 +102,7 @@
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
                 </div>
-              </div> --}}
+              </div>
             </div>
           </div>
           <div class="-mr-2 flex md:hidden">
@@ -162,7 +163,7 @@
       </div>
     </header> --}}
     <main>
-      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      <div class="mx-auto ml-5 max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
          <div class="my-2 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center">
           <div class="w-full md:w-3/4 lg:w-1/2 bb">
@@ -172,7 +173,7 @@
             {{-- <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
                 Learn More
             </a> --}}
-            <a href="#" class="neon-button">
+            <a href="#" class="neon-button lalezar-regular">
               Learn More
           </a>
           </div>         
@@ -182,5 +183,7 @@
          </div>
         </main>
       </div>
+
+      <script src="js/script.js"></script>
 </body>
 </html>
