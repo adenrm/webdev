@@ -210,24 +210,26 @@
       </ul>
     </div>
         </main>
-      <h1 class="text-4xl font-serif ">contoh</h1>
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-momo mb-6">Asistant</h1>
-        <div class="flex space-x-10">
-          <div class="flex flex-col items-center">
-            <img src="img/Assistant.png" alt="logo Assistant">
-            <p class="text-3xl mt-2">Assistant</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="img/siri.png" alt="logo siri">
-            <p class="text-3xl mt-2">Siri</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img src="img/alexa.png" alt="logo alexa">
-            <p class="text-3xl mt-2">Alexa</p>
+        <h1 class="text-4xl font-serif">Contoh:</h1>
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="text-4xl font-momo mb-6">Asistant</h1>
+          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 md:space-x-10">
+            <div class="flex flex-col items-center">
+              <img src="img/Assistant.png" alt="logo Assistant" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Assistant</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="img/siri.png" alt="logo siri" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Siri</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="img/alexa.png" alt="logo alexa" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Alexa</p>
+            </div>
           </div>
         </div>
-      </div>
+        
+
          
       <script src="js/script.js"></script>
 </body>
