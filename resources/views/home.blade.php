@@ -195,7 +195,7 @@
         <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
       </div>
     </div>
-    <div class="text-white container pl-8 pr-8 bg-cyan-700">
+    <div class="text-white container  pl-8 pr-8 bg-cyan-700">
       <br><br><br>
       <h4 class="text-xl">Apa saja yang bisa dilakukan AI?</h4>
       <ul class="list-disc">
@@ -210,7 +210,25 @@
       </ul>
     </div>
         </main>
-
+      <h1 class="text-4xl font-serif ">contoh</h1>
+      <div class="flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-momo mb-6">Asistant</h1>
+        <div class="flex space-x-10">
+          <div class="flex flex-col items-center">
+            <img src="img/Assistant.png" alt="logo Assistant">
+            <p class="text-3xl mt-2">Assistant</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="img/siri.png" alt="logo siri">
+            <p class="text-3xl mt-2">Siri</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img src="img/alexa.png" alt="logo alexa">
+            <p class="text-3xl mt-2">Alexa</p>
+          </div>
+        </div>
+      </div>
+         
       <script src="js/script.js"></script>
 </body>
 </html>
