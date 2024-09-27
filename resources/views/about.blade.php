@@ -79,12 +79,13 @@
                 <a href="/about" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-gray" aria-current="page">ABOUT</a>
                 <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">CONTACT</a>
               </div>
-              {{-- <div class="relative ml-3">
-                <div>
-                  <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center rounded-full bg-cyan-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+              <div class="relative ml-3">
+                <div class="mt-1 focus:bg-cyan-700">
+                  <button type="button" @click="isOpen = !isOpen" class="relative flex max-w-xs items-center text-sm rounded-md focus:bg-cyan-700 focus:text-white" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     <span class="absolute -inset-1.5"></span>
                     <span class="sr-only">Open user menu</span>
-                    <img class="h-8 w-8 rounded-full" src="img/profile.png" alt="">
+                    {{-- <img class="h-8 w-8 rounded-full" src="img/profile.png" alt=""> --}}
+                    <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700">OTHER</p>
                   </button>
                 </div>
   
@@ -100,7 +101,7 @@
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
                 </div>
-              </div> --}}
+              </div>
             </div>
           </div>
           <div class="-mr-2 flex md:hidden">
@@ -120,7 +121,7 @@
           </div>
         </div>
       </div>
-  
+      
       <!-- Mobile menu, show/hide based on menu state. -->
       <div x-show="isOpen" class="md:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
