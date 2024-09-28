@@ -157,8 +157,8 @@
     </nav>
   
     <header class="bg-white shadow">
-      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">About</h1>
+      <div class="flex justify-center mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+        <h1 class="text-3xl font-bold tracking-tight  text-gray-900 text-white bg-cyan-700">About Us</h1>
       </div>
     </header>
     <main>
@@ -167,8 +167,10 @@
         <div class="bg-white py-24 sm:py-32">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl sm:text-center">
-          <h2 class="ml-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Web Percobaan</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Web ini di buat hanya untuk percobaan dalam suatu project Laravel, yang dimana ini adalah project Laravel pertama saya, Dan menurut saya ini sangat menarik bagi saya dan tentunya sangat menyenangkan!</p>
+          <h2 class="ml-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">About</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 
+          </p>
+          <p>&copy; 2024 SMK Wikrama 1 Garut, inc.</p>
             </div>
           </div>
         </div>
