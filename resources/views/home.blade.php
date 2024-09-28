@@ -209,9 +209,9 @@
               <br>
             </ul>
           </div>
-        </div>
+
         </main>
-        <h1 class="text-4xl font-serif">Contoh:</h1>
+        <h1 class="text-4xl  mt-4 font-serif">Contoh :</h1>
         <div class="flex flex-col items-center justify-center">
           <h1 class="text-4xl font-momo mb-6">Asistant</h1>
           <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 md:space-x-10">
@@ -228,7 +228,49 @@
               <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Alexa</p>
             </div>
           </div>
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="text-4xl font-momo mb-6 mt-8">Vehicle</h1>
+          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 md:space-x-10">
+            <div class="flex flex-col items-center">
+              <img src="img/tesla.png" alt="logo Tesla" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Tesla</p>
+            </div>
+            <div class="flex flex-col items-center">
+              <img src="img/waymo.png" alt="logo Waymo" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Waymo</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="-mb-3 xl:-mb-3 pl-8 pr-8 my-2  container-xl mx-auto gap-2 items-center ">
+<h1 class="text-4xl font-serif">Keuntungan :</h1>
+<br>
+  <ul class="list-disc text-2xl">
+    <li>Efisiensi: Otomatisasi tugas-tugas yang berulang</li>
+    <br>
+    <li>Akurasi: Pengambilan keputusan yang lebih baik berdasarkan data</li>
+    <br>
+    <li>Inovasi: Pengembangan produk dan layanan baru</li>
+    <br>
+  </ul>
+  </div>
+  <div class="-mb-3 xl:-mb-3 pl-8 pr-8 my-2  container-xl mx-auto gap-2 items-center ">
+    <h1 class="text-4xl font-serif">Tantangan :</h1>
+    <br>
+      <ul class="list-disc text-2xl">
+        <li>Etika: Penggunaan AI yang tidak bertanggung jawab dapat menimbulkan masalah seperti bias, privasi, dan keamanan</li>
+        <br>
+        <li>Ketergantungan: Terlalu bergantung pada AI dapat mengurangi kemampuan manusia untuk berpikir kritis.</li>
+        <br>
+        <li>Pekerjaan: Otomatisasi dapat menggantikan beberapa pekerjaan manusia.</li>
+        <br>
+      </ul>
+      </div>
+<footer class="flex items-center justify-center">
+  <img class="h-8 w-8" src="img/logoWikrama.png" alt="logo wikrama ">
+  <p>Copyright &copy; 2024 SMK Wikrama 1 Garut. All rights reserved.</p>
+  <img src="img/PPLG.png" alt="logo PPLG">
+</footer>
         
 
          
