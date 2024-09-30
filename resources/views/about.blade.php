@@ -37,6 +37,7 @@
         .text-theme {
             color: #38B6FF;
         }
+        
     </style>
 </head>
 <body class="h-full">
@@ -140,11 +141,16 @@
             </section>
 
             <section class="about text-center container p-5">
-                <h1>AI TECHNOLOGY WEB</h1>
-                <br>
-                <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
-                <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
-            </section>
+    <h1 class="text-3xl font-bold mb-4">AI TECHNOLOGY WEB</h1>
+    <p class="mb-6">Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober, yang di desain dengan waktu hanya sehari yang dikerjakan oleh siswa PPLG/RPL Kelas 11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-Ikrom.</p>
+    <p class="text-gray-300 mb-6">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+
+    
+</section>
+
+
+
+
             <div class="container about">
                 <br><br>
                 <hr>
@@ -214,6 +220,70 @@
         </div>
     </a>
 </div>
+<br><br>
+<hr>
+<br><br>
+<div class="mt-5 flex justify-center space-x-6">
+    <!-- Team Member 1 -->
+    <div x-data="{ open: false }" class="relative">
+        <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
+            <img src="img/aden.png" alt="Aden Ragil Masrendra" class="inline-block h-12 w-12 rounded-full mr-3">
+            <span class="font-semibold">Aden Ragil Masrendra</span>
+        </button>
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+            <a href="https://instagram.com/ydznq" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-instagram mr-2"></i> Instagram
+            </a>
+            <a href="https://github.com/adenrm" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+            <a href="mailto:aden315208@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+                <i class="fas fa-envelope mr-2"></i> Gmail
+            </a>
+        </div>
+    </div>
+
+    <!-- Team Member 2 -->
+    <div x-data="{ open: false }" class="relative">
+        <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
+            <img src="img/rahmat.png" alt="Rahmat Rizki Aditia" class="inline-block h-12 w-12 rounded-full mr-3">
+            <span class="font-semibold">Rahmat Rizki Aditia</span>
+        </button>
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+            <a href="https://instagram.com/callmerahmet" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-instagram mr-2"></i> Instagram
+            </a>
+            <a href="https://github.com/Iki-Coder" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+            <a href="mailto:12300954@smkwikrama1garut.sch.id" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+                <i class="fas fa-envelope mr-2"></i> Gmail
+            </a>
+        </div>
+    </div>
+
+    <!-- Team Member 3 -->
+    <div x-data="{ open: false }" class="relative">
+        <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
+            <img src="img/afu.png" alt="Afu Manan" class="inline-block h-12 w-12 rounded-full mr-3">
+            <span class="font-semibold">Afu Manan</span>
+        </button>
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+            <a href="https://instagram.com/afuaqil1614" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-instagram mr-2"></i> Instagram
+            </a>
+            <a href="https://github.com/Afu16" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+                <i class="fab fa-github mr-2"></i> GitHub
+            </a>
+            <a href="mailto:afumanan07@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+                <i class="fas fa-envelope mr-2"></i> Gmail
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Make sure to include Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
             </div>

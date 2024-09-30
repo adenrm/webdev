@@ -189,7 +189,7 @@
         </div>
         </main>
         <img class="-mb-3" src="img/wave_rotate.svg" alt="wave">
-        <div class="cursor-default container p-6 mt-5 m-5">
+        <div class="cursor-default container p-6 mt-5 m-5 lalezar-regula">
           <h1 class="font-bold text-2xl">Keuntungan Penggunaan AI</h1>
           <ol class="list-disc">
             <li class="text-xl">Efisiensi: Otomatisasi tugas-tugas yang berulang</li><br>
