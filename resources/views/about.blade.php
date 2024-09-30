@@ -123,6 +123,9 @@
         <a href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white" aria-current="page">Home</a>
         <a href="/about" class="block rounded-md bg-cyan-700 px-3 py-2 text-base font-medium text-white">About</a>
         <a href="/tools" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white">Tools</a>
+        <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
+                  <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
+                  <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
       </div>
     </div>
   </nav>
@@ -132,7 +135,7 @@
                 <img src="assets/mount1.png" class="mount1">
                 <img src="assets/bush2.png" class="bush2">
 
-                <h1 class="title">About</h1>
+                <h1 class="title text-shadow-drop-center lalezar-regular">ABOUT</h1>
 
                 <img src="assets/bush1.png" class="bush1">
                 <img src="assets/leaf2.png" class="leaf2">
@@ -140,27 +143,29 @@
             </section>
 
             <section class="about text-center container p-5">
+              <div class="text-focus-in">
                 <h1>AI TECHNOLOGY WEB</h1>
                 <br>
                 <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
                 <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+              </div>
             </section>
             <div class="container about">
                 <br><br>
-                <hr>
+                <hr class="text-focus-in">
                 <br><br>
-                <h1 class="font-size-2xl">Requirements :</h1>
+                <h1 class="font-size-2xl text-focus-in">Requirements :</h1>
                 <br><br><br>
                 <div class="flex flex-col items-center justify-center">
-                    <h1 class="text-4xl font-momo mb-6 text-center font-bold">Software</h1>
+                    <h1 class="text-4xl font-momo mb-6 text-center font-bold text-focus-in">Software</h1>
                     <div class="flex flex-wrap justify-center space-x-10">
-                        <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
+                        <a class="scroll" href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
                             <div class="flex flex-col items-center">
                                 <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
                                 <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
                             </div>
                         </a>
-                        <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
+                        <a class="scroll"  href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
                             <div class="flex flex-col items-center">
                                 <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
                                 <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
@@ -171,15 +176,15 @@
 
                 <div class="mt-10"></div>
 
-                <h1 class="text-4xl font-momo mb-6 text-center font-bold">Framework</h1> 
+                <h1 class="text-4xl font-momo mb-6 text-center font-bold text-focus-in">Framework</h1> 
 <div class="flex justify-center space-x-10">
-    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">
+    <a class="scroll"  href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/tailwinds.png" alt="Tailwinds" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Tailwinds</p>
         </div>
     </a>
-    <a href="https://en.wikipedia.org/wiki/Laravel" target="_blank">
+    <a class="scroll"  href="https://en.wikipedia.org/wiki/Laravel" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/laravel.png" alt="Laravel" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Laravel</p>
@@ -187,27 +192,27 @@
     </a>
 </div>
 
-  <h1 class="text-4xl font-momo mb-6 text-center font-bold mt-10">Languages</h1>
+  <h1 class="text-4xl font-momo mb-6 text-center font-bold mt-10 text-focus-in">Languages</h1>
   <div class="flex justify-center space-x-10">
-      <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+      <a class="scroll"  href="https://en.wikipedia.org/wiki/HTML" target="_blank">
           <div class="flex flex-col items-center">
               <img src="img/HTML.png" alt="HTML" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
               <p class="text-xl sm:text-2xl lg:text-3xl mt-2">HTML</p>
           </div>
       </a>
-      <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+      <a class="scroll"  href="https://en.wikipedia.org/wiki/CSS" target="_blank">
           <div class="flex flex-col items-center">
               <img src="img/CSS3.png" alt="CSS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
               <p class="text-xl sm:text-2xl lg:text-3xl mt-2">CSS</p>
           </div>
       </a>
-      <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+      <a class="scroll"  href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
           <div class="flex flex-col items-center">
               <img src="img/js.png" alt="JavaScript" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
               <p class="text-xl sm:text-2xl lg:text-3xl mt-2">JavaScript</p>
           </div>
       </a>
-      <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">
+      <a class="scroll"  href="https://en.wikipedia.org/wiki/PHP" target="_blank">
           <div class="flex flex-col items-center">
               <img src="img/php.png" alt="PHP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
               <p class="text-xl sm:text-2xl lg:text-3xl mt-2">PHP</p>
@@ -233,11 +238,12 @@
       </div>
       <div class="w-full">
         <p>Make with Love by</p>
-        <img class="w-36 sm:w-50 md:w-64 lg:w-72" src="img/logoWikrama.png" alt="Logo">
+        <img class="w-36 sm:w-50 md:w-64 lg:w-72 roll-in-blurred-right" src="img/logoWikrama.png" alt="Logo">
       </div>
     </div>
     <div class="-mt-2 container text-center bg-gray-500 pt-5 cursor-default">
       <p class="text-center text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+      <br><br><br><br>
     </div>
   </footer>
   <script>
