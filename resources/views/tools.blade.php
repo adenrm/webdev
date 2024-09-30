@@ -85,44 +85,60 @@
             <h1 class="text-4xl font-momo mb-6 font-bold">Asisten</h1>
             <div class="flex flex-col md:flex-row flex-container">
                 <div class="image-container">
-                    <img src="img/Assistant.png" alt="logo Assistant">
-                    <p class="image-description">Google Assistant</p>
+                    <a href="https://assistant.google.com/" target="_blank">
+                        <img src="img/Assistant.png" alt="logo Assistant">
+                        <p class="image-description">Google Assistant</p>
+                    </a>
                 </div>
                 <div class="image-container">
-                    <img src="img/siri.png" alt="logo Siri">
-                    <p class="image-description">Siri</p>
+                    <a href="https://www.apple.com/siri/" target="_blank">
+                        <img src="img/siri.png" alt="logo Siri">
+                        <p class="image-description">Siri</p>
+                    </a>
                 </div>
                 <div class="image-container">
-                    <img src="img/alexa.png" alt="logo Alexa">
-                    <p class="image-description">Alexa</p>
+                    <a href="https://www.amazon.com/alexa" target="_blank">
+                        <img src="img/alexa.png" alt="logo Alexa">
+                        <p class="image-description">Alexa</p>
+                    </a>
                 </div>
             </div>
 
             <h1 class="text-4xl font-momo mb-6 font-bold mt-8">Kendaraan</h1>
             <div class="flex flex-col md:flex-row flex-container">
                 <div class="image-container">
-                    <img src="img/tesla.png" alt="Tesla">
-                    <p class="image-description">Tesla</p>
+                    <a href="https://www.tesla.com" target="_blank">
+                        <img src="img/tesla.png" alt="Tesla">
+                        <p class="image-description">Tesla</p>
+                    </a>
                 </div>
                 <div class="image-container">
-                    <img src="img/Waymo.png" alt="Waymo">
-                    <p class="image-description">Waymo</p>
+                    <a href="https://waymo.com" target="_blank">
+                        <img src="img/Waymo.png" alt="Waymo">
+                        <p class="image-description">Waymo</p>
+                    </a>
                 </div>
             </div>
 
             <h1 class="text-4xl font-momo mb-6 font-bold mt-8">ChatBot</h1>
             <div class="flex flex-col md:flex-row flex-container">
                 <div class="image-container">
-                    <img src="img/Ada.png" alt="Chatbot 1">
-                    <p class="image-description">Ada</p>
+                    <a href="https://ada.support" target="_blank">
+                        <img src="img/Ada.png" alt="Chatbot 1">
+                        <p class="image-description">Ada</p>
+                    </a>
                 </div>
                 <div class="image-container">
-                    <img src="img/gpt.png" alt="Chatbot 2">
-                    <p class="image-description">ChatGPT</p>
+                    <a href="https://www.openai.com/chatgpt" target="_blank">
+                        <img src="img/gpt.png" alt="Chatbot 2">
+                        <p class="image-description">ChatGPT</p>
+                    </a>
                 </div>
                 <div class="image-container">
-                    <img src="img/pn.png" alt="Chatbot 3">
-                    <p class="image-description">IBM Watsonx</p>
+                    <a href="https://www.ibm.com/watsonx" target="_blank">
+                        <img src="img/pn.png" alt="Chatbot 3">
+                        <p class="image-description">IBM Watsonx</p>
+                    </a>
                 </div>
             </div>
         </div>
