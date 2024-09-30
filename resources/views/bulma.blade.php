@@ -22,8 +22,9 @@
   </div>
   </nav>
 
+  
   <a href="#">Neon</a>
-
+  <img class="gerigi" width="50px" src="img/gerigi.png" alt="Gerigi">
   <script src="js/test.js"></script>
 </body>
 </html>
