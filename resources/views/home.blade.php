@@ -78,7 +78,7 @@
               <div class="space-x-4">
                 <a href="/" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white" aria-current="page">HOME</a>
                 <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">ABOUT</a>
-                <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">CONTACT</a>
+                <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">TOOLS</a>
               </div>
               <div class="relative ml-3">
                 <div class="mt-1 focus:bg-cyan-700">
@@ -211,27 +211,35 @@
           </div>
         </div>
         </main>
-        <h1 class="text-4xl font-serif">Contoh:</h1>
-        <div class="flex flex-col items-center justify-center">
-          <h1 class="text-4xl font-momo mb-6">Asistant</h1>
-          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 md:space-x-10">
-            <div class="flex flex-col items-center">
-              <img src="img/Assistant.png" alt="logo Assistant" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
-              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Assistant</p>
+        <img class="-mb-3" src="img/wave_rotate.svg" alt="wave">
+        <div class="container p-6 mt-5 m-5">
+          <h1 class="font-bold text-2xl">Keuntungan Penggunaan AI</h1>
+          <ol class="list-disc">
+            <li class="text-xl">Efisiensi: Otomatisasi tugas-tugas yang berulang</li><br>
+            <li class="text-xl">Akurasi: Pengambilan keputusan yang lebih baik berdasarkan data</li><br>
+            <li class="text-xl">Inovasi: Pengembangan produk dan layanan baru</li><br>
+          </ol><hr><br>
+          <h1 class="font-bold text-2xl">Kekurangan Penggunaan AI</h1>
+          <ol class="list-disc">
+            <li class="text-xl">Etika: Penggunaan AI yang tidak bertanggung jawab dapat menimbulkan masalah seperti bias, privasi, dan keamanan.</li><br>
+            <li class="text-xl">Ketergantungan: Terlalu bergantung pada AI dapat mengurangi kemampuan manusia untuk berpikir kritis.</li><br>
+            <li class="text-xl">Pekerjaan: Otomatisasi dapat menggantikan beberapa pekerjaan manusia.</li><br>
+          </ol>
+        </div>
+
+        <footer>
+          <div class="container bg-gray-600 flex flex-lg-column-reverse md:flex-row lg:flex-row">
+            <div class="w-full">
+              <div class="pl-6">
+                <h1 class="text-2xl">Other</h1>
+                
+              </div>
             </div>
-            <div class="flex flex-col items-center">
-              <img src="img/siri.png" alt="logo siri" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
-              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Siri</p>
-            </div>
-            <div class="flex flex-col items-center">
-              <img src="img/alexa.png" alt="logo alexa" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain">
-              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Alexa</p>
+            <div class="w-full">
+              test
             </div>
           </div>
-        </div>
-        
-
-         
+        </footer>
       <script src="js/script.js"></script>
 </body>
 </html>

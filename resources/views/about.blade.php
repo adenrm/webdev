@@ -78,7 +78,7 @@
               <div class="space-x-4">
                 <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">HOME</a>
                 <a href="/about" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-gray" aria-current="page">ABOUT</a>
-                <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">CONTACT</a>
+                <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">TOOLS</a>
               </div>
               <div class="relative ml-3">
                 <div class="mt-1 focus:bg-cyan-700">
