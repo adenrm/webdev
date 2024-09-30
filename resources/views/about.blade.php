@@ -78,7 +78,7 @@
               <div class="space-x-4">
                 <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">HOME</a>
                 <a href="/about" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-gray" aria-current="page">ABOUT</a>
-                <a href="/contact" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">CONTACT</a>
+                <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">TOOLS</a>
               </div>
               <div class="relative ml-3">
                 <div class="mt-1 focus:bg-cyan-700">
@@ -179,24 +179,37 @@
     </section>
     <div class="container about">
     <br><br><hr><br><br>
-    <h1 class="font-size-2xl">Requierements :</h1>
+    <h1 class="font-size-2xl">Requirements :</h1>
     <br><br><br>
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-momo mb-6">Software</h1>
-        <br>
-        <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
-          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 lg:space-x-10">
-            <div class="flex flex-col items-center">
-              <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
-              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
-            </div>
-        </a>
-        <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
-          <div class="flex flex-col items-center">
-            <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
-            <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
-          </div>
-        </a>
+    <div class="flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-momo mb-6 text-center font-bold" >Software</h1>
+        <div class="flex flex-wrap justify-center space-x-10">
+            <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
+                <div class="flex flex-col items-center">
+                    <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+                    <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
+                </div>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
+                <div class="flex flex-col items-center">
+                    <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+                    <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="mt-10"></div>
+
+    <h1 class="text-4xl font-momo mb-6 text-center font-bold">Languages</h1>
+    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">
+                <div class="flex flex-col items-center">
+                    <img src="img/tailwinds.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+                    <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Tailwinds</p>
+                </div>
+            </a>
+</div>
+
+
         </div>
       </div>
     </div>
