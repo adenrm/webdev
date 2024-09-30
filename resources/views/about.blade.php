@@ -162,7 +162,7 @@
 
                 <div class="mt-10"></div>
 
-                <h1 class="text-4xl font-momo mb-6 text-center font-bold">Languages</h1>
+                <h1 class="text-4xl font-momo mb-6 text-center font-bold">Framework</h1>
                 <div class="flex justify-center space-x-10">
                     <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">
                         <div class="flex flex-col items-center">
