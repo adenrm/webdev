@@ -142,6 +142,9 @@
                 <a href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white" aria-current="page">Home</a>
                 <a href="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white">About</a>
                 <a href="/tools" class="block rounded-md bg-cyan-700 px-3 py-2 text-base font-medium text-white">Tools</a>
+                <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
+                  <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
+                  <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
               </div>
             </div>
           </nav>
@@ -149,20 +152,20 @@
             <div class="assistant">
                 <h1 class="text-4xl font-momo mb-6 font-bold">Asisten</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
-                    <div class="image-container sm:w-50 md:w-64 lg:w-72">
-                        <a href="https://assistant.google.com/" target="_blank">
+                    <div class="image-container card-border sm:w-50 md:w-64 lg:w-72">
+                        <a class="scroll" href="https://assistant.google.com/" target="_blank">
                             <img src="img/Assistant.png" alt="logo Assistant">
                             <p class="image-description">Google Assistant</p>
                         </a>
                     </div>
-                    <div class="image-container sm:w-50 md:w-64 lg:w-72">
-                        <a href="https://www.apple.com/siri/" target="_blank">
+                    <div class="image-container card-border sm:w-50 md:w-64 lg:w-72">
+                        <a class="scroll" href="https://www.apple.com/siri/" target="_blank">
                             <img src="img/siri.png" alt="logo Siri">
                             <p class="image-description">Siri</p>
                         </a>
                     </div>
-                    <div class="image-container sm:w-50 md:w-64 lg:w-72">
-                        <a href="https://www.amazon.com/alexa" target="_blank">
+                    <div class="image-container card-border sm:w-50 md:w-64 lg:w-72">
+                        <a class="scroll" href="https://www.amazon.com/alexa" target="_blank">
                             <img src="img/alexa.png" alt="logo Alexa">
                             <p class="image-description">Alexa</p>
                         </a>
@@ -172,14 +175,14 @@
             <div class="vehicle">
                 <h1 class="text-4xl font-momo mb-6 font-bold mt-8">Kendaraan</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
-                    <div class="image-container">
-                        <a href="https://www.tesla.com" target="_blank">
+                    <div class="image-container card-border">
+                        <a class="scroll" href="https://www.tesla.com" target="_blank">
                             <img src="img/tesla.png" alt="Tesla">
                             <p class="image-description">Tesla</p>
                         </a>
                     </div>
-                    <div class="image-container">
-                        <a href="https://waymo.com" target="_blank">
+                    <div class="image-container card-border">
+                        <a class="scroll" href="https://waymo.com" target="_blank">
                             <img src="img/Waymo.png" alt="Waymo">
                             <p class="image-description">Waymo</p>
                         </a>
@@ -189,20 +192,20 @@
             <div class="chatbot">
                 <h1 class="text-4xl font-momo mb-6 font-bold mt-8">ChatBot</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
-                    <div class="image-container">
-                        <a href="https://ada.support" target="_blank">
+                    <div class="image-container card-border">
+                        <a class="scroll" href="https://ada.support" target="_blank">
                             <img src="img/Ada.png" alt="Chatbot 1">
                             <p class="image-description">Ada</p>
                         </a>
                     </div>
-                    <div class="image-container">
-                        <a href="https://www.openai.com/chatgpt" target="_blank">
+                    <div class="image-container card-border">
+                        <a class="scroll" href="https://www.openai.com/chatgpt" target="_blank">
                             <img src="img/gpt.png" alt="Chatbot 2">
                             <p class="image-description">ChatGPT</p>
                         </a>
                     </div>
-                    <div class="image-container">
-                        <a href="https://www.ibm.com/watsonx" target="_blank">
+                    <div class="image-container card-border">
+                        <a class="scroll" href="https://www.ibm.com/watsonx" target="_blank">
                             <img src="img/pn.png" alt="Chatbot 3">
                             <p class="image-description">IBM Watsonx</p>
                         </a>
@@ -227,11 +230,12 @@
           </div>
           <div class="w-full">
             <p>Make with Love by</p>
-            <img class="w-36 sm:w-50 md:w-64 lg:w-72" src="img/logoWikrama.png" alt="Logo">
+            <img class="w-36 sm:w-50 md:w-64 lg:w-72 roll-in-blurred-right" src="img/logoWikrama.png" alt="Logo">
           </div>
         </div>
         <div class="-mt-2 container text-center bg-gray-500 pt-5 cursor-default">
           <p class="text-center text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+          <br><br><br><br>
         </div>
       </footer>
     <script src="js/script.js">
