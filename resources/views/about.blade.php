@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/about.css">
     <style>
       .lalezar-regular {
   font-family: "Lalezar", system-ui;
@@ -156,24 +157,71 @@
       </div>
     </nav>
   
-    <header class="bg-white shadow">
-      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">About</h1>
-      </div>
-    </header>
-    <main>
-      <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <!-- Your content -->
-        <div class="bg-white py-24 sm:py-32">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl sm:text-center">
-          <h2 class="ml-3 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Web Percobaan</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Web ini di buat hanya untuk percobaan dalam suatu project Laravel, yang dimana ini adalah project Laravel pertama saya, Dan menurut saya ini sangat menarik bagi saya dan tentunya sangat menyenangkan!</p>
+    <main class="cursor-default select-none">
+      <section class="home">
+        <img src="assets/mount2.png" class="mount2">
+        <img src="assets/mount1.png" class="mount1">
+        <img src="assets/bush2.png" class="bush2">
+
+        <h1 class="title">About</h1>
+
+        <img src="assets/bush1.png" class="bush1">
+        <img src="assets/leaf2.png" class="leaf2">
+        <img src="assets/leaf1.png" class="leaf1">
+    </section>
+
+    <section class="about text-center container p-5">
+        <h1>AI TECHNOLOGY WEB</h1>
+        <br>
+      <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 
+        SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
+        <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+    </section>
+    <div class="container about">
+    <br><br><hr><br><br>
+    <h1 class="font-size-2xl">Requierements :</h1>
+    <br><br><br>
+      <div class="flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-momo mb-6">Software</h1>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
+          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 lg:space-x-10">
+            <div class="flex flex-col items-center">
+              <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
             </div>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
+          <div class="flex flex-col items-center">
+            <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+            <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
           </div>
+        </a>
         </div>
       </div>
+    </div>
     </main>
   </div>
+  <script>
+    const title = document.querySelector('.title')
+    const leaf1 = document.querySelector('.leaf1')
+    const leaf2 = document.querySelector('.leaf2')
+    const bush2 = document.querySelector('.bush2')
+    const mount1 = document.querySelector('.mount1')
+    const mount2 = document.querySelector('.mount2')
+    
+    document.addEventListener('scroll', function() {
+        let value = window.scrollY
+        // console.log(value)
+        title.style.marginTop = value * 1.1 + 'px'
+    
+        leaf1.style.marginLeft = -value + 'px'
+        leaf2.style.marginLeft = value + 'px'
+    
+        bush2.style.marginBottom = -value + 'px'
+    
+        mount1.style.marginBottom = -value * 1.1 + 'px'
+        mount2.style.marginBottom = -value * 1.2 + 'px'
+    })</script>
 </body>
 </html>
