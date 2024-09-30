@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en" class="h-full scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -130,6 +130,9 @@
           <a href="/" class="block rounded-md bg-cyan-700 px-3 py-2 text-base font-medium text-white" aria-current="page">Home</a>
           <a href="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white">About</a>
           <a href="/tools" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white">Tools</a>
+          <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
+                  <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
+                  <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
         </div>
       </div>
     </nav>
@@ -150,22 +153,22 @@
             {{-- <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
                 Learn More
             </a> --}}
-            <a href="#" class="neon-button lalezar-regular">
+            <a href="#judul" class="neon-button lalezar-regular">
               Learn More
           </a>
           </div>         
           <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 2xl:-mr-20">
-            <img src="img/homeRobot.png" alt="robot">
+            <img class=" vibrate-3" src="img/homeRobot.png" alt="robot">
           </div>
         </div>
       </div>
       <img class="-mb-3" src="img/wave.svg" alt="wave">
         <div class=" -mb-3 pl-8 pr-8 my-2 text-white container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row gap-2 items-center bg-cyan-700">
           <div class="w-full md:w-3/4 lg:w-1/2">
-            <img class="hidden sm:block w-3/4 sm:pt-5 md:pt-5" src="img/brain.png" alt="brain">
+            <img class="text-focus-in hidden sm:block w-3/4 sm:pt-5 md:pt-5" src="img/brain.png" alt="brain">
           </div>
-          <div class="w-full md:w-3/4 lg:w-1/2 bb">
-            <h1 class="text-3xl font-bold">Apa itu AI (Artificial Intelegence)?</h1>
+          <div class=" text-focus-in w-full md:w-3/4 lg:w-1/2 bb">
+            <h1 class="text-3xl font-bold" id="judul">Apa itu AI (Artificial Intelegence)?</h1>
             <br><br>
             <p>&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
             <br><br><br>
@@ -174,8 +177,8 @@
         </div>
         <div class="-mb-3 xl:-mb-3 pl-8 pr-8 my-2 text-white container-xl mx-auto gap-2 items-center bg-cyan-700">
           <br><br><br>
-          <h4 class="text-xl">Apa saja yang bisa dilakukan AI?</h4>
-          <ul class="list-disc">
+          <h4 class="text-xl text-focus-in">Apa saja yang bisa dilakukan AI?</h4>
+          <ul class="list-disc text-focus-in">
             <li>Pembelajaran Mesin (Machine Learning): AI dapat belajar dari data yang besar dan kompleks, lalu membuat prediksi atau keputusan berdasarkan pola yang ditemukan. Contohnya, rekomendasi film di Netflix atau deteksi penipuan kartu kredit</li>
             <br>
             <li>Pemrosesan Bahasa Alami (Natural Language Processing): AI dapat memahami dan menghasilkan bahasa manusia, seperti menerjemahkan teks, menjawab pertanyaan, atau bahkan menulis puisi.</li>
@@ -189,21 +192,20 @@
         </div>
         </main>
         <img class="-mb-3" src="img/wave_rotate.svg" alt="wave">
-        <div class="cursor-default container p-6 mt-5 m-5 lalezar-regula">
-          <h1 class="font-bold text-2xl">Keuntungan Penggunaan AI</h1>
-          <ol class="list-disc">
+        <div class="cursor-default container p-6 mt-5 m-5">
+          <h1 class="font-bold text-2xl slide-in-right">Keuntungan Penggunaan AI</h1>
+          <ol class="list-disc slide-in-right">
             <li class="text-xl">Efisiensi: Otomatisasi tugas-tugas yang berulang</li><br>
             <li class="text-xl">Akurasi: Pengambilan keputusan yang lebih baik berdasarkan data</li><br>
             <li class="text-xl">Inovasi: Pengembangan produk dan layanan baru</li><br>
           </ol><hr><br>
-          <h1 class="font-bold text-2xl">Kekurangan Penggunaan AI</h1>
-          <ol class="list-disc">
+          <h1 class="font-bold text-2xl slide-in-right">Kekurangan Penggunaan AI</h1>
+          <ol class="list-disc slide-in-right">
             <li class="text-xl">Etika: Penggunaan AI yang tidak bertanggung jawab dapat menimbulkan masalah seperti bias, privasi, dan keamanan.</li><br>
             <li class="text-xl">Ketergantungan: Terlalu bergantung pada AI dapat mengurangi kemampuan manusia untuk berpikir kritis.</li><br>
             <li class="text-xl">Pekerjaan: Otomatisasi dapat menggantikan beberapa pekerjaan manusia.</li><br>
           </ol>
         </div>
-
         <img class="-mb-5" src="img/wave_footer.svg" alt="Wave">
         <footer class="bg-gray-500">
           <div class="container bg-gray-500 flex flex-lg-column-reverse md:flex-row lg:flex-row text-white cursor-default sm:-mr-36">
@@ -220,11 +222,12 @@
             </div>
             <div class="w-full">
               <p>Make with Love by</p>
-              <img class="w-36 sm:w-50 md:w-64 lg:w-72" src="img/logoWikrama.png" alt="Logo">
+              <img class="w-36 sm:w-50 md:w-64 lg:w-72 roll-in-blurred-right" src="img/logoWikrama.png" alt="Logo">
             </div>
           </div>
           <div class="-mt-2 container text-center bg-gray-500 pt-5 cursor-default">
             <p class="text-center text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+            <br><br><br><br>
           </div>
         </footer>
       <script src="js/script.js"></script>

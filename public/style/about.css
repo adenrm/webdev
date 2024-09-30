@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
+@media only screen and (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
 * {
     margin: 0;
     padding: 0;
@@ -80,3 +85,152 @@ header nav:hover > a:not(:hover) {
     font-size: 40px;
 }
 
+@keyframes scroll {
+    from {
+      opacity: 0;
+      scale: 0.5;
+      filter: blur(12px);
+    }
+    to {
+      opacity: 1;
+      scale: 1;
+      filter: blur(0px);
+    }
+  }
+  
+  .scroll {
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+  }
+
+  .wrapper {
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    margin-top: 5rem;
+    overflow: hidden;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+  
+  @keyframes scrollLeft {
+    to {
+      left: -200px;
+    }
+  }
+  
+ 
+  
+  .text-focus-in {
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+ @keyframes text-focus-in {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .slide-out-blurred-top {
+	animation: slide-out-blurred-top 0.45s cubic-bezier(0.755, 0.050, 0.855, 0.060) both;
+}
+ @keyframes slide-out-blurred-top {
+    0% {
+      transform: translateY(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 0%;
+      filter: blur(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-1000px) scaleY(2) scaleX(0.2);
+      transform-origin: 50% 0%;
+      filter: blur(40px);
+      opacity: 0;
+    }
+  }
+  
+  .text-shadow-drop-center {
+	animation: text-shadow-drop-center 0.6s both;
+}
+@keyframes text-shadow-drop-center {
+    0% {
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  .roll-in-blurred-right {
+	animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+}
+@keyframes roll-in-blurred-right {
+    0% {
+      transform: translateX(1000px) rotate(720deg);
+      filter: blur(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+  .card-border{
+    margin: 0 auto;
+    padding: 2em;
+    width: 300px;
+    background: #1c1f2b;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  .card-border::after, .card-border::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 3px;
+    border-radius: 10px;
+    animation: 3s spin linear infinite;
+  }
+  .card-border::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+  }
+  @keyframes spin{
+    from{
+      --angle: 0deg;
+    }
+    to{
+      --angle: 360deg;
+    }
+  }
