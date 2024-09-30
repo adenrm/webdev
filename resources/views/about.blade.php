@@ -192,27 +192,27 @@
         </div>
     </a>
 </div>
-<h1 class="text-4xl font-momo mb-6 text-center font-bold mt-10">Languages</h1>
+<h1 class="text-4xl font-momo mb-6 text-center font-bold mt-10 text-focus-in">Languages</h1>
 <div class="flex justify-center space-x-10">
-    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+    <a class="scroll" href="https://en.wikipedia.org/wiki/HTML" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/HTML.png" alt="HTML" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">HTML</p>
         </div>
     </a>
-    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+    <a class="scroll" href="https://en.wikipedia.org/wiki/CSS" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/CSS3.png" alt="CSS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">CSS</p>
         </div>
     </a>
-    <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+    <a class="scroll" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/js.png" alt="JavaScript" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">JavaScript</p>
         </div>
     </a>
-    <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">
+    <a class="scroll" href="https://en.wikipedia.org/wiki/PHP" target="_blank">
         <div class="flex flex-col items-center">
             <img src="img/php.png" alt="PHP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">PHP</p>
