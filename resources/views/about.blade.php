@@ -10,45 +10,38 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="shortcut icon" href="img/logoWikrama.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style/about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/about.css">
     <style>
-      .lalezar-regular {
-  font-family: "Lalezar", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  }
+        .lalezar-regular {
+            font-family: "Lalezar", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
 
-  .blog-bg-theme {
-    background-color: #38B6FF;
-    border-radius: 10px;
-    padding: 5px;
-  }
+        .blog-bg-theme {
+            background-color: #38B6FF;
+            border-radius: 10px;
+            padding: 5px;
+        }
 
-  .bg-theme {
-    background-color: #38B6FF;
-  }
+        .bg-theme {
+            background-color: #38B6FF;
+        }
 
-.bg-theme:hover {
-  background-color: #38B6FF;
-}
-  .text-theme {
-    color: #38B6FF;
-  }
+        .bg-theme:hover {
+            background-color: #38B6FF;
+        }
+
+        .text-theme {
+            color: #38B6FF;
+        }
     </style>
 </head>
 <body class="h-full">
-    <!--
-  This example requires updating your template:
-
-  ```
-  <html class="h-full bg-gray-100">
-  <body class="h-full">
-  ```
--->
-<div class="min-h-full">
-  <nav x-data="{ isOpen: false }">
+    <div class="min-h-full">
+      <nav x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="flex h-16 items-center justify-between">
         <div class="flex items-center">
@@ -133,52 +126,98 @@
       </div>
     </div>
   </nav>
-    <main class="cursor-default select-none">
-      <section class="home">
-        <img src="assets/mount2.png" class="mount2">
-        <img src="assets/mount1.png" class="mount1">
-        <img src="assets/bush2.png" class="bush2">
+        <main class="cursor-default select-none">
+            <section class="home">
+                <img src="assets/mount2.png" class="mount2">
+                <img src="assets/mount1.png" class="mount1">
+                <img src="assets/bush2.png" class="bush2">
 
-        <h1 class="title">About</h1>
+                <h1 class="title">About</h1>
 
-        <img src="assets/bush1.png" class="bush1">
-        <img src="assets/leaf2.png" class="leaf2">
-        <img src="assets/leaf1.png" class="leaf1">
-    </section>
+                <img src="assets/bush1.png" class="bush1">
+                <img src="assets/leaf2.png" class="leaf2">
+                <img src="assets/leaf1.png" class="leaf1">
+            </section>
 
-    <section class="about text-center container p-5">
-        <h1>AI TECHNOLOGY WEB</h1>
-        <br>
-      <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 
-        SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
-        <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
-    </section>
-    <div class="container about">
-    <br><br><hr><br><br>
-    <h1 class="font-size-2xl">Requierements :</h1>
-    <br><br><br>
-      <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-momo mb-6">Software</h1>
-        <br>
-        <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
-          <div class="flex flex-col md:flex-row flex-wrap justify-center space-y-6 md:space-y-0 lg:space-x-10">
-            <div class="flex flex-col items-center">
-              <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
-              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
-            </div>
-        </a>
-        <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
-          <div class="flex flex-col items-center">
-            <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
-            <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
-          </div>
-        </a>
+            <section class="about text-center container p-5">
+                <h1>AI TECHNOLOGY WEB</h1>
+                <br>
+                <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
+                <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+            </section>
+            <div class="container about">
+                <br><br>
+                <hr>
+                <br><br>
+                <h1 class="font-size-2xl">Requirements :</h1>
+                <br><br><br>
+                <div class="flex flex-col items-center justify-center">
+                    <h1 class="text-4xl font-momo mb-6 text-center font-bold">Software</h1>
+                    <div class="flex flex-wrap justify-center space-x-10">
+                        <a href="https://en.wikipedia.org/wiki/XAMPP" target="_blank">
+                            <div class="flex flex-col items-center">
+                                <img src="img/xampp-logo.png" alt="XAMPP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+                                <p class="text-xl sm:text-2xl lg:text-3xl mt-2">XAMPP</p>
+                            </div>
+                        </a>
+                        <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
+                            <div class="flex flex-col items-center">
+                                <img src="img/nodejs-logo.png" alt="NODEJS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+                                <p class="text-xl sm:text-2xl lg:text-3xl mt-2">NodeJS</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mt-10"></div>
+
+                <h1 class="text-4xl font-momo mb-6 text-center font-bold">Framework</h1> 
+<div class="flex justify-center space-x-10">
+    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS" target="_blank">
+        <div class="flex flex-col items-center">
+            <img src="img/tailwinds.png" alt="Tailwinds" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+            <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Tailwinds</p>
         </div>
-      </div>
-    </div>
-    </main>
+    </a>
+    <a href="https://en.wikipedia.org/wiki/Laravel" target="_blank">
+        <div class="flex flex-col items-center">
+            <img src="img/laravel.png" alt="Laravel" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+            <p class="text-xl sm:text-2xl lg:text-3xl mt-2">Laravel</p>
+        </div>
+    </a>
+</div>
+
+  <h1 class="text-4xl font-momo mb-6 text-center font-bold mt-10">Languages</h1>
+  <div class="flex justify-center space-x-10">
+      <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+          <div class="flex flex-col items-center">
+              <img src="img/HTML.png" alt="HTML" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">HTML</p>
+          </div>
+      </a>
+      <a href="https://en.wikipedia.org/wiki/CSS" target="_blank">
+          <div class="flex flex-col items-center">
+              <img src="img/CSS3.png" alt="CSS" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">CSS</p>
+          </div>
+      </a>
+      <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
+          <div class="flex flex-col items-center">
+              <img src="img/js.png" alt="JavaScript" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">JavaScript</p>
+          </div>
+      </a>
+      <a href="https://en.wikipedia.org/wiki/PHP" target="_blank">
+          <div class="flex flex-col items-center">
+              <img src="img/php.png" alt="PHP" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+              <p class="text-xl sm:text-2xl lg:text-3xl mt-2">PHP</p>
+          </div>
+      </a>
   </div>
-  <footer style="background: #3B3291;">
+            </div>
+        </main>
+    </div>
+      <footer style="background: #3B3291;">
     <img class="-mb-5" src="img/wave_footer.svg" alt="Wave">
     <div class="container bg-gray-500 flex flex-lg-column-reverse md:flex-row lg:flex-row text-white cursor-default sm:-mr-36">
       <div class="w-full">
