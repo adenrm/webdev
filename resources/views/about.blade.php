@@ -123,7 +123,7 @@
                 <img src="assets/mount1.png" class="mount1">
                 <img src="assets/bush2.png" class="bush2">
 
-                <h1 class="title">About</h1>
+                <h1 class="lalezar-regular title">About</h1>
 
                 <img src="assets/bush1.png" class="bush1">
                 <img src="assets/leaf2.png" class="leaf2">
@@ -194,7 +194,7 @@
     </a>
     <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
         <div class="flex flex-col items-center">
-            <img src="img/js.png" alt="JavaScript" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
+            <img src="img/javaSc.png" alt="JavaScript" class="w-24 h-24 sm:w-48 sm:h-48 lg:w-64 lg:h-64 object-contain"><br>
             <p class="text-xl sm:text-2xl lg:text-3xl mt-2">JavaScript</p>
         </div>
     </a>
