@@ -38,7 +38,7 @@
   }
     </style>
 </head>
-<body class="h-full">
+<body class="h-full dark:bg-gray-800">
     <!--
   This example requires updating your template:
 
@@ -75,10 +75,19 @@
               </button> --}}
   
               <!-- Profile dropdown -->
+              {{-- <label for="toggle-switch" class="toggle-switch inline-flex items-center cursor-pointer mt-1 mr-3">
+                <input type="checkbox" name="toggle" id="toggle-switch" class="hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6 mr-2 block dark:hidden">
+                  <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                </svg>            
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6 mr-2 hidden dark:block">
+                  <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                </svg>
+              </label> --}}
               <div class="space-x-4">
                 <a href="/" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white" aria-current="page">HOME</a>
-                <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">ABOUT</a>
-                <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">TOOLS</a>
+                <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white">ABOUT</a>
+                <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white">TOOLS</a>
               </div>
               <div class="relative ml-3">
                 <div class="mt-1 focus:bg-cyan-700">
@@ -86,7 +95,7 @@
                     <span class="absolute -inset-1.5"></span>
                     <span class="sr-only">Open user menu</span>
                     {{-- <img class="h-8 w-8 rounded-full" src="img/profile.png" alt=""> --}}
-                    <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700">OTHER</p>
+                    <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700 dark:text-white">OTHER</p>
                   </button>
                 </div>
   
@@ -96,11 +105,11 @@
                 x-transition:enter-end="opacity-100 scale-100"
                 x-transition:leave="transition ease-in duration-75 transform"
                 x-transition:leave-start="opacity-100 scale-100"
-                x-transition:leave-end="opacity-0 scale-95" class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                x-transition:leave-end="opacity-0 scale-95" class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-800 dark:text-gray-200" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                   <!-- Active: "bg-gray-100", Not Active: "" -->
-                  <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
-                  <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
-                  <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
+                  <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
+                  <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
+                  <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
                 </div>
               </div>
             </div>
@@ -146,16 +155,23 @@
       <div class="mx-auto ml-5 max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
          <div class="my-2 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row 2xl:flex-row 2xl:pl-96 gap-2 items-center">
-          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 bb">
+          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 bb dark:text-white">
             <h1 class="text-5xl font-bold mb-4">AI Technology</h1>
-            <p>AI Technology adalah cabang dari ilmu komputer yang berfokus pada penciptaan mesin atau sistem yang mampu meniru kecerdasan manusia. Dengan AI, komputer dapat melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, penyelesaian masalah, dan pembelajaran dari data. AI terdiri dari beberapa sub-bidang, termasuk machine learning, natural language processing, computer vision, dan robotics.</p>
+            <p class="text-justify">AI Technology adalah cabang dari ilmu komputer yang berfokus pada penciptaan mesin atau sistem yang mampu meniru kecerdasan manusia. Dengan AI, komputer dapat melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, penyelesaian masalah, dan pembelajaran dari data. AI terdiri dari beberapa sub-bidang, termasuk machine learning, natural language processing, computer vision, dan robotics.</p>
             <br>
             {{-- <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
                 Learn More
             </a> --}}
-            <a href="#judul" class="neon-button lalezar-regular">
-              Learn More
-          </a>
+            <div class="dark:hidden block">
+              <a href="#judul" class="dark:hidden neon-button lalezar-regular">
+                Learn More
+            </a>
+            </div>
+            <div class="dark:block hidden">
+              <a href="#judul" class="neon-button-dark lalezar-regular">
+                Learn More
+            </a>
+            </div>
           </div>         
           <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 2xl:-mr-20">
             <img class=" vibrate-3" src="img/homeRobot.png" alt="robot">
@@ -170,7 +186,7 @@
           <div class=" text-focus-in w-full md:w-3/4 lg:w-1/2 bb">
             <h1 class="text-3xl font-bold" id="judul">Apa itu AI (Artificial Intelegence)?</h1>
             <br><br>
-            <p>&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
+            <p class="text-justify">&shy; AI (Artificial Intelligence) atau Kecerdasan Buatan adalah teknologi yang memungkinkan mesin, seperti komputer, untuk meniru kemampuan kognitif manusia. Ini termasuk kemampuan untuk belajar, bernalar, memecahkan masalah, memahami bahasa, dan bahkan mengenali pola.</p>
             <br><br><br>
             <p>&shy; &shy; &shy; Singkatnya, AI adalah upaya untuk membuat mesin yang bisa "berpikir" seperti manusia.</p>
           </div>
@@ -192,15 +208,15 @@
         </div>
         </main>
         <img class="-mb-3" src="img/wave_rotate.svg" alt="wave">
-        <div class="cursor-default container p-6 mt-5 m-5">
-          <h1 class="font-bold text-2xl slide-in-right">Keuntungan Penggunaan AI</h1>
-          <ol class="list-disc slide-in-right">
+        <div class="cursor-default container p-6 mt-5 m-5 dark:text-white">
+          <h1 class="font-bold text-2xl text-focus-in">Keuntungan Penggunaan AI</h1>
+          <ol class="list-disc text-focus-in">
             <li class="text-xl">Efisiensi: Otomatisasi tugas-tugas yang berulang</li><br>
             <li class="text-xl">Akurasi: Pengambilan keputusan yang lebih baik berdasarkan data</li><br>
             <li class="text-xl">Inovasi: Pengembangan produk dan layanan baru</li><br>
           </ol><hr><br>
-          <h1 class="font-bold text-2xl slide-in-right">Kekurangan Penggunaan AI</h1>
-          <ol class="list-disc slide-in-right">
+          <h1 class="font-bold text-2xl text-focus-in">Kekurangan Penggunaan AI</h1>
+          <ol class="list-disc text-focus-in">
             <li class="text-xl">Etika: Penggunaan AI yang tidak bertanggung jawab dapat menimbulkan masalah seperti bias, privasi, dan keamanan.</li><br>
             <li class="text-xl">Ketergantungan: Terlalu bergantung pada AI dapat mengurangi kemampuan manusia untuk berpikir kritis.</li><br>
             <li class="text-xl">Pekerjaan: Otomatisasi dapat menggantikan beberapa pekerjaan manusia.</li><br>

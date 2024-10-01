@@ -1,5 +1,5 @@
 const dropdown = document.querySelector('.drop-adv');
-const toggle = document.querySelector('.toggle-switch');
+const toggle = document.querySelector('#toggle-switch');
 const html = document.querySelector('html');
 
 toggle.addEventListener('click', function () {
