@@ -155,16 +155,23 @@
       <div class="mx-auto ml-5 max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <!-- Your content -->
          <div class="my-2 container-xl mx-auto flex flex-col-reverse lg:flex-row md:flex-row 2xl:flex-row 2xl:pl-96 gap-2 items-center">
-          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 bb">
+          <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 bb dark:text-white">
             <h1 class="text-5xl font-bold mb-4">AI Technology</h1>
             <p>AI Technology adalah cabang dari ilmu komputer yang berfokus pada penciptaan mesin atau sistem yang mampu meniru kecerdasan manusia. Dengan AI, komputer dapat melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, penyelesaian masalah, dan pembelajaran dari data. AI terdiri dari beberapa sub-bidang, termasuk machine learning, natural language processing, computer vision, dan robotics.</p>
             <br>
             {{-- <a href="#" class="mt-5 text-white bg-blue-500 px-6 py-2 rounded-md hover:bg-white hover:text-blue-500 transition duration-300">
                 Learn More
             </a> --}}
-            <a href="#judul" class="neon-button lalezar-regular">
-              Learn More
-          </a>
+            <div class="dark:hidden block">
+              <a href="#judul" class="dark:hidden neon-button lalezar-regular">
+                Learn More
+            </a>
+            </div>
+            <div class="dark:block hidden">
+              <a href="#judul" class="neon-button-dark lalezar-regular">
+                Learn More
+            </a>
+            </div>
           </div>         
           <div class="w-full md:w-3/4 lg:w-1/2 2xl:w-6/12 2xl:-mr-20">
             <img class=" vibrate-3" src="img/homeRobot.png" alt="robot">
