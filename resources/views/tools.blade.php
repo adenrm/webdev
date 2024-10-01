@@ -59,7 +59,7 @@
         }
     </style>
 </head>
-<body class="h-full dark:bg-black">
+<body class="h-full dark:bg-gray-600">
     <div class="min-h-full">
         <nav x-data="{ isOpen: false }">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -89,18 +89,31 @@
         
                     <!-- Profile dropdown -->
                     
-                    <label class="toggle-switch inline-flex items-center cursor-pointer mt-1">
-                      <input type="checkbox" value="" class="sr-only peer">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 mr-2 visible dark:invisible">
+                    {{-- <label class="toggle-switch inline-flex items-center cursor-pointer mt-1 mr-3">
+                      <input id="toggle-switch" type="checkbox" value="" class="sr-only peer">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6 mr-3 block dark:hidden">
                         <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
-                      </svg>                                                
+                      </svg>            
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="size-6 mr-3 hidden dark:block">
+                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                      </svg>
+                                                          
                       <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600">
                       </div>
+                    </label> --}}
+                    <label for="toggle-switch" class="toggle-switch inline-flex items-center cursor-pointer mt-1 mr-3">
+                      <input type="checkbox" name="toggle" id="toggle-switch" class="hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6 mr-2 block dark:hidden">
+                        <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                      </svg>            
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6 mr-2 hidden dark:block">
+                        <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                      </svg>
                     </label>
                     <div class="space-x-4">
-                      <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white" aria-current="page">HOME</a>
-                      <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">ABOUT</a>
-                      <a href="/tools" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white">TOOLS</a>
+                      <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white" aria-current="page">HOME</a>
+                      <a href="/about" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white">ABOUT</a>
+                      <a href="/tools" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white dark:text-white">TOOLS</a>
                     </div>
                     <div class="relative ml-3">
                       <div class="mt-1 focus:bg-cyan-700">
@@ -108,7 +121,7 @@
                           <span class="absolute -inset-1.5"></span>
                           <span class="sr-only">Open user menu</span>
                           {{-- <img class="h-8 w-8 rounded-full" src="img/profile.png" alt=""> --}}
-                          <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700">OTHER</p>
+                          <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700 dark:text-white">OTHER</p>
                         </button>
                       </div>
                       
@@ -148,9 +161,9 @@
             <div x-show="isOpen" class="md:hidden" id="mobile-menu">
               <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-cyan-600 hover:text-white" -->
-                <a href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white" aria-current="page">Home</a>
-                <a href="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white">About</a>
-                <a href="/tools" class="block rounded-md bg-cyan-700 px-3 py-2 text-base font-medium text-white">Tools</a>
+                <a href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white dark:text-white" aria-current="page">Home</a>
+                <a href="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-600 hover:bg-cyan-700 hover:text-white dark:text-white">About</a>
+                <a href="/tools" class="block rounded-md bg-cyan-700 px-3 py-2 text-base font-medium text-white dark:text-white">Tools</a>
                 <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
                   <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
                   <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
@@ -159,9 +172,9 @@
           </nav>
           <div class="flex flex-col items-center text-center justify-center mt-8">
             <div class="assistant">
-                <h1 class="text-4xl font-momo mb-6 font-bold">Asisten</h1>
+                <h1 class="text-4xl font-momo mb-6 font-bold dark:text-white">Asisten</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
-                    <div class="image-container card-border sm:w-50 md:w-64 lg:w-72">
+                    <div class="image-container bg-gray-300 card-border sm:w-50 md:w-64 lg:w-72">
                         <a class="scroll" href="https://assistant.google.com/" target="_blank">
                             <img src="img/Assistant.png" alt="logo Assistant">
                             <p class="image-description">Google Assistant</p>
@@ -182,7 +195,7 @@
                 </div>
             </div>
             <div class="vehicle">
-                <h1 class="text-4xl font-momo mb-6 font-bold mt-8">Kendaraan</h1>
+                <h1 class="text-4xl font-momo mb-6 font-bold mt-8 dark:text-white">Kendaraan</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
                     <div class="image-container card-border">
                         <a class="scroll" href="https://www.tesla.com" target="_blank">
@@ -199,7 +212,7 @@
                 </div>
             </div>
             <div class="chatbot">
-                <h1 class="text-4xl font-momo mb-6 font-bold mt-8">ChatBot</h1>
+                <h1 class="text-4xl font-momo mb-6 font-bold mt-8 dark:text-white">ChatBot</h1>
                 <div class="flex flex-col sm:flex-wrap md:flex-row flex-container">
                     <div class="image-container card-border">
                         <a class="scroll" href="https://ada.support" target="_blank">
