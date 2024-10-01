@@ -27,8 +27,10 @@ export default {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
-    },
-  },
-  plugins: [],
-  darkMode: 'selector',
-}
+        colors: {
+          'about': '#3B3291',
+        },
+        plugins: [],
+        darkMode: 'selector',
+      },
+}}

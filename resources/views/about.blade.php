@@ -69,7 +69,7 @@
             </button> --}}
 
             <!-- Profile dropdown -->
-            <label for="toggle-switch" class="toggle-switch inline-flex items-center cursor-pointer mt-1 mr-3">
+            {{-- <label for="toggle-switch" class="toggle-switch inline-flex items-center cursor-pointer mt-1 mr-3">
               <input type="checkbox" name="toggle" id="toggle-switch" class="hidden">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="orange" class="size-6 mr-2 block dark:hidden">
                 <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
@@ -77,7 +77,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="yellow" class="size-6 mr-2 hidden dark:block">
                 <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
               </svg>
-            </label>
+            </label> --}}
             <div class="space-x-4">
               <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white" aria-current="page">HOME</a>
               <a href="/about" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white">ABOUT</a>
@@ -141,29 +141,27 @@
   </nav>
         <main class="cursor-default select-none">
             <section class="home">
-                <img src="assets/mount2.png" class="mount2">
-                <img src="assets/mount1.png" class="mount1">
-                <img src="assets/bush2.png" class="bush2">
+                <img src="assets/mount2.png" class="mount2" id="mount2">
+                <img src="assets/mount1.png" class="mount1" id="mount1">
+                <img src="assets/bush2.png" class="bush2" id="bush2">
 
-                <h1 class="title text-shadow-drop-center lalezar-regular">ABOUT</h1>
+                <h1 id="title-parallax" class="title text-shadow-drop-center lalezar-regular">ABOUT</h1>
 
-                <img src="assets/bush1.png" class="bush1">
-                <img src="assets/leaf2.png" class="leaf2">
-                <img src="assets/leaf1.png" class="leaf1">
+                <img src="assets/bush1.png" class="bush1" id="bush1">
+                <img src="assets/leaf2.png" class="leaf2" id="leaf2">
+                <img src="assets/leaf1.png" class="leaf1" id="leaf1">
             </section>
 
             <section class="about text-center container p-5">
               <div class="text-focus-in">
                 <h1>AI TECHNOLOGY WEB</h1>
                 <br>
-                <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa PPLG/RPL Kelas 11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-ikrom.</p>
+                <p>Web ini dibuat untuk partisipasi pada lomba Web Development yang sedang berlangsung di sekitar bulan September - Oktober yang di desain dengan waktu hanya sehari yang di kerjakan oleh siswa <strong> PPLG/RPL</strong> Kelas XI/11 SMK Wikrama 1 Garut, Santri Pondok Pesantren Al-Ikrom.</p>
                 <p class="text-gray-300">© 2024 SMK Wikrama 1 Garut, Inc.</p>
+                <hr class="text-focus-in w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
               </div>
             </section>
             <div class="container about">
-                <br><br>
-                <hr class="text-focus-in">
-                <br><br>
                 <h1 class="font-size-2xl text-focus-in">Requirements :</h1>
                 <br><br><br>
                 <div class="flex flex-col items-center justify-center">
@@ -229,17 +227,22 @@
     </a>
 </div>
 <br><br>
-<hr>
-<br><br>
 <h1>Created By :</h1>
 <div class="mt-5 flex justify-center space-x-6">
     <!-- Team Member 1 -->
     <div x-data="{ open: false }" class="relative">
         <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
             <img src="img/aden.png" alt="Aden Ragil Masrendra" class="inline-block h-12 w-12 rounded-full mr-3">
-            <span class="font-semibold">Aden Ragil Masrendra</span>
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="font-bold text-white truncate dark:text-gray-300">
+                  Aden Ragil Masrendra
+              </p>
+              <p class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">
+                  FullStack Dev
+              </p>
+          </div>
         </button>
-        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-full bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
             <a href="https://instagram.com/ydznq" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
@@ -256,9 +259,16 @@
     <div x-data="{ open: false }" class="relative">
         <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
             <img src="img/rahmat.png" alt="Rahmat Rizki Aditia" class="inline-block h-12 w-12 rounded-full mr-3">
-            <span class="font-semibold">Rahmat Rizki Aditia</span>
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="font-bold text-white truncate dark:text-gray-300">
+                  Rahmat Rizki Aditia
+              </p>
+              <p class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
+                  UI/UX Designer
+              </p>
+          </div>
         </button>
-        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-full bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
             <a href="https://instagram.com/callmerahmet" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
@@ -275,9 +285,16 @@
     <div x-data="{ open: false }" class="relative">
         <button @click="open = !open" class="flex items-center px-6 py-3 bg-cyan-700 text-white rounded-lg shadow-md transition duration-200 ease-in-out hover:bg-cyan-600">
             <img src="img/afu.png" alt="Afu Manan" class="inline-block h-12 w-12 rounded-full mr-3">
-            <span class="font-semibold">Afu Manan</span>
+            <div class="flex-1 min-w-0 ms-4">
+              <p class="font-bold text-white truncate dark:text-gray-300">
+                  Afu Manan
+              </p>
+              <p class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300">
+                  Program Manager
+              </p>
+          </div>
         </button>
-        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
+        <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-full bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
             <a href="https://instagram.com/afuaqil1614" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
@@ -290,16 +307,15 @@
         </div>
     </div>
 </div>
-
 <!-- Make sure to include Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
             </div>
         </main>
     </div>
-      <footer style="background: #3B3291;">
+      <footer class="bg-about">
     <img class="-mb-5" src="img/wave_footer.svg" alt="Wave">
     <div class="container bg-gray-500 flex flex-lg-column-reverse md:flex-row lg:flex-row text-white cursor-default sm:-mr-36">
-      <div class="w-full">
+      <div class="w-full bg-gray-500">
         <div class="pl-6">
           <h1 class="text-2xl font-bold">Other</h1>
           <br>
@@ -321,12 +337,12 @@
     </div>
   </footer>
   <script src="js/script.js">
-    const title = document.querySelector('.title')
-    const leaf1 = document.querySelector('.leaf1')
-    const leaf2 = document.querySelector('.leaf2')
-    const bush2 = document.querySelector('.bush2')
-    const mount1 = document.querySelector('.mount1')
-    const mount2 = document.querySelector('.mount2')
+    const title = document.querySelector('#title-parallax')
+    const leaf1 = document.querySelector('#leaf1')
+    const leaf2 = document.querySelector('#leaf2')
+    const bush2 = document.querySelector('#bush2')
+    const mount1 = document.querySelector('#mount1')
+    const mount2 = document.querySelector('#mount2')
     
     document.addEventListener('scroll', function() {
         let value = window.scrollY
