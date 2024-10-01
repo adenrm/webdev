@@ -40,7 +40,7 @@
         
     </style>
 </head>
-<body class="h-full">
+<body class="h-full dark:bg-gray-800">
     <div class="min-h-full">
       <nav x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -79,9 +79,9 @@
               </svg>
             </label>
             <div class="space-x-4">
-              <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white" aria-current="page">HOME</a>
+              <a href="/" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white" aria-current="page">HOME</a>
               <a href="/about" class="rounded-md bg-cyan-700 px-3 py-2 text-sm lalezar-regular text-white">ABOUT</a>
-              <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white">TOOLS</a>
+              <a href="/tools" class="rounded-md px-3 py-2 text-sm lalezar-regular text-black hover:bg-cyan-700 hover:text-white dark:text-white">TOOLS</a>
             </div>
             <div class="relative ml-3">
               <div class="mt-1 focus:bg-cyan-700">
@@ -89,7 +89,7 @@
                   <span class="absolute -inset-1.5"></span>
                   <span class="sr-only">Open user menu</span>
                   {{-- <img class="h-8 w-8 rounded-full" src="img/profile.png" alt=""> --}}
-                  <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700">OTHER</p>
+                  <p class="rounded-md px-3 py-2 text-sm lalezar-regular text-black focus:bg-cyan-700 dark:text-white">OTHER</p>
                 </button>
               </div>
 
@@ -99,11 +99,11 @@
               x-transition:enter-end="opacity-100 scale-100"
               x-transition:leave="transition ease-in duration-75 transform"
               x-transition:leave-start="opacity-100 scale-100"
-              x-transition:leave-end="opacity-0 scale-95" class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+              x-transition:leave-end="opacity-0 scale-95" class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-800 dark:text-gray-200" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                 <!-- Active: "bg-gray-100", Not Active: "" -->
-                <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
-                <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
-                <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
+                <a target="_blank" href="https://smkwikrama1garut.sch.id/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-0">Informasi Sekolah</a>
+                <a target="_blank" href="https://www.google.com/maps/place/SMK+Wikrama+1+Garut/@-7.1717526,107.8899623,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68b0c3cbcb1f29:0xc96607822a7646b0!8m2!3d-7.1717526!4d107.8925372!16s%2Fg%2F1pzt06b5r?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-1">Alamat Sekolah</a>
+                <a target="_blank" href="https://smkwikrama1garut.sch.id/psb-online/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200" role="menuitem" tabindex="-1" id="user-menu-item-2">PPDB Sekolah</a>
               </div>
             </div>
           </div>
@@ -240,13 +240,13 @@
             <span class="font-semibold">Aden Ragil Masrendra</span>
         </button>
         <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
-            <a href="https://instagram.com/ydznq" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://instagram.com/ydznq" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
-            <a href="https://github.com/adenrm" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://github.com/adenrm" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-github mr-2"></i> GitHub
             </a>
-            <a href="mailto:aden315208@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+            <a href="mailto:aden315208@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md dark:bg-gray-800 dark:text-gray-200">
                 <i class="fas fa-envelope mr-2"></i> Gmail
             </a>
         </div>
@@ -259,13 +259,13 @@
             <span class="font-semibold">Rahmat Rizki Aditia</span>
         </button>
         <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
-            <a href="https://instagram.com/callmerahmet" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://instagram.com/callmerahmet" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
-            <a href="https://github.com/Iki-Coder" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://github.com/Iki-Coder" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-github mr-2"></i> GitHub
             </a>
-            <a href="mailto:12300954@smkwikrama1garut.sch.id" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+            <a href="mailto:12300954@smkwikrama1garut.sch.id" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md dark:bg-gray-800 dark:text-gray-200">
                 <i class="fas fa-envelope mr-2"></i> Gmail
             </a>
         </div>
@@ -278,13 +278,13 @@
             <span class="font-semibold">Afu Manan</span>
         </button>
         <div x-show="open" @click.outside="open = false" class="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg transition duration-200 ease-in-out">
-            <a href="https://instagram.com/afuaqil1614" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://instagram.com/afuaqil1614" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-instagram mr-2"></i> Instagram
             </a>
-            <a href="https://github.com/Afu16" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white">
+            <a href="https://github.com/Afu16" target="_blank" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white dark:bg-gray-800 dark:text-gray-200">
                 <i class="fab fa-github mr-2"></i> GitHub
             </a>
-            <a href="mailto:afumanan07@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md">
+            <a href="mailto:afumanan07@gmail.com" class="flex items-center px-4 py-2 text-gray-700 hover:bg-cyan-700 hover:text-white rounded-b-md dark:bg-gray-800 dark:text-gray-200">
                 <i class="fas fa-envelope mr-2"></i> Gmail
             </a>
         </div>
@@ -320,7 +320,7 @@
       <br><br><br><br>
     </div>
   </footer>
-  <script>
+  <script src="js/script.js">
     const title = document.querySelector('.title')
     const leaf1 = document.querySelector('.leaf1')
     const leaf2 = document.querySelector('.leaf2')
