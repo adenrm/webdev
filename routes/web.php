@@ -12,12 +12,13 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
-
 Route::get('/bulma', function () {
     return view('bulma');
 });
+
+Route::get('/tools', function () {
+    return view('tools');
+});
+
 
 Route::get('/sell', [SiswaController::class, 'index']);
